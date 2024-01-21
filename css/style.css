@@ -37,6 +37,11 @@ nav {
     cursor: pointer;
 }
 
+.cpy {
+    width: 5%;
+    margin-left: 1rem;
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -72,10 +77,15 @@ p {
     width: 70%;
 }
 
+table {
+    width: 90%;
+}
+
 table, th, tr, td {
     padding: 0.5rem 2rem;
     border-collapse: collapse;
     border: 2px solid black;
+    text-align: center;
 }
 
 form label{
